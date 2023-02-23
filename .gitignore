@@ -1,3 +1,6 @@
+# Deployment
+web*.config
+
 # Pictures 
 static/img/*
 !static/img/Bees

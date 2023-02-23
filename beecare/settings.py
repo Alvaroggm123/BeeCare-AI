@@ -50,10 +50,8 @@ ALLOWED_HOSTS = [
     '192.168.17.75',    # IP de desarrollo 
     '192.168.32.99',    # IP de desarrollo
     '192.168.100.120',  # IP de desarrollo
+    'glassesfriends.com',  # PRODUCCIÓN
     'beecare.glassesfriends.com',  # PRODUCCIÓN
-    'beecaretest.herokuapp.com',  # Heroku
-    'gf-beecare.herokuapp.com',  # Heroku
-    'gf-beecare.azurewebsites.net',  # Azure
     ]
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.cookie.CookieStorage"
@@ -199,7 +197,7 @@ DATABASES = {
         'NAME': config('SQL_DB_T'),
         'USER': config('SQL_USER'),
         'PASSWORD': config('SQL_PASSWORD'),
-        'HOST': 'beecare.database.windows.net',
+        'HOST': 'glassesfriends.com',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
             },
